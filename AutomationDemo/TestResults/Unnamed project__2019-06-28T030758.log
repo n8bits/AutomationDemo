@@ -1,0 +1,146 @@
+﻿2019-06-28T03:07:58.9528722-07:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-28T03:07:58.9529150-07:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework netcore21 in x64 mode execution started
+2019-06-28T03:07:58.9529171-07:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Code\VisualStudio\AutomationDemo\AutomationDemo\bin\Debug\netcoreapp2.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-28T03:07:58.9840325-07:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Code\VisualStudio\AutomationDemo\AutomationDemo\bin\Debug\netcoreapp2.1\AutomationDemo.dll
+2019-06-28T03:07:58.9842214-07:00;VSTestExecutionThread;Info;Output folder configured to "D:\Code\VisualStudio\AutomationDemo\AutomationDemo\TestResults" (default)
+2019-06-28T03:07:58.9842459-07:00;VSTestExecutionThread;Info;Profile: 
+2019-06-28T03:07:59.0103567-07:00;VSTestExecutionThread;Info;Log file path: D:\Code\VisualStudio\AutomationDemo\AutomationDemo\TestResults\Unnamed project__2019-06-28T030758.log
+2019-06-28T03:07:59.0118738-07:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-28T03:07:59.0150646-07:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-28T03:07:59.0189950-07:00;Thread#12;Info;Checking license
+2019-06-28T03:07:59.0191764-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-28T03:07:59.0198848-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-28T03:07:59.0317009-07:00;Thread#12;Info;Evaluation mode: test execution starts in 13 seconds... (this delay is removed in the registered version)
+2019-06-28T03:08:12.0328955-07:00;Thread#12;Info;Evaluation delay finished.
+2019-06-28T03:08:12.0393801-07:00;Thread#12;Info;License check completed
+2019-06-28T03:08:12.0394702-07:00;Thread#12;Info;starting test run
+2019-06-28T03:08:12.0434926-07:00;Thread#12;Info;Discovering target: Default
+2019-06-28T03:08:12.0436171-07:00;Thread#12;Info;Discovering tests from assembly: D:\Code\VisualStudio\AutomationDemo\AutomationDemo\bin\Debug\netcoreapp2.1\AutomationDemo.dll
+2019-06-28T03:08:12.1045271-07:00;Thread#12;Info;Discovered tests from assembly: D:\Code\VisualStudio\AutomationDemo\AutomationDemo\bin\Debug\netcoreapp2.1\AutomationDemo.dll
+2019-06-28T03:08:12.1054132-07:00:Test Suite Dump
+2019-06-28T03:08:12.1067615-07:00:#0: Unnamed project/ - 
+2019-06-28T03:08:12.1067727-07:00:#1: Default - 
+2019-06-28T03:08:12.1067742-07:00:#2: AutomationDemo - 
+2019-06-28T03:08:12.1067751-07:00:#3: UserRegistration - 
+2019-06-28T03:08:12.1067984-07:00:#4: Form Validation - Valid - TestAssembly:AutomationDemo/Feature:UserRegistration/Scenario:Form+Validation+-+Valid
+2019-06-28T03:08:12.1068395-07:00:End: Test Suite Dump
+2019-06-28T03:08:12.1199907-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-28T03:08:12.1215355-07:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-06-28T03:08:12.1215814-07:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-28T03:08:12.1239486-07:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-28T03:08:12.1239548-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-28T03:08:12.1239562-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-28T03:08:12.1239576-07:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-28T03:08:12.1248398-07:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-28T03:08:12.1255766-07:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-28T03:08:12.1274740-07:00:Thread #0: creating new test thread executor for AutomationDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-28T03:08:12.1291747-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-06-28T03:08:12.1298714-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-06-28T03:08:12.1302122-07:00:using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-06-28T03:08:12.1577853-07:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-28T03:08:12.2243549-07:00:starting Out Of Process Executor
+2019-06-28T03:08:12.3013947-07:00:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' '"D:\Code\VisualStudio\AutomationDemo\AutomationDemo\bin\Debug\netcoreapp2.1\SpecFlowPlusRunner\netcoreapp2.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_1.dll" 11004 2019-06-28T030758 "D:\Code\VisualStudio\AutomationDemo\AutomationDemo\TestResults"' in 'D:\Code\VisualStudio\AutomationDemo\AutomationDemo\bin\Debug\netcoreapp2.1'
+2019-06-28T03:08:12.3074168-07:00:Entering Memory Barrier for 928
+2019-06-28T03:08:12.3074268-07:00:Leaving Memory Barrier for 928
+2019-06-28T03:08:12.3105799-07:00:Out of Process Executor 928 started
+2019-06-28T03:08:12.3269123-07:00:Waiting for endpoint
+2019-06-28T03:08:12.3278889-07:00:trying to connect to Out of Process Executor the 1 attempt
+2019-06-28T03:08:12.5064186-07:00:waiting for Connection of SpecRun.Executor.928.Logger ended
+2019-06-28T03:08:12.5078783-07:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-28T03:08:12.5278642-07:00:Connection to Out of Process Executor established in the 1 attempt
+2019-06-28T03:08:12.7347787-07:00:waiting for Connection of SpecRun.Executor.928.Callback ended
+2019-06-28T03:08:12.8657374-07:00:2019-06-28T03:08:12.8043572-07:00:OutOfProcessTestAssemblyExecutor: initialized for D:\Code\VisualStudio\AutomationDemo\AutomationDemo\bin\Debug\netcoreapp2.1\AutomationDemo.dll on test thread #0
+2019-06-28T03:08:12.8743940-07:00:Endpoint 928 started
+2019-06-28T03:08:12.8888384-07:00:2019-06-28T03:08:12.8885080-07:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-06-28T03:08:12.9582656-07:00:Thread#0: Test #4/0 is started on thread #0
+2019-06-28T03:08:12.9648070-07:00:2019-06-28T03:08:12.9645317-07:00:Thread#0:T:2019-06-28T03:08:12.9631479-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-06-28T03:08:13.0761738-07:00:2019-06-28T03:08:13.0758502-07:00:Thread#0:T:-> Loading plugin D:\Code\VisualStudio\AutomationDemo\AutomationDemo\bin\Debug\netcoreapp2.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-28T03:08:13.0872719-07:00:2019-06-28T03:08:13.0869339-07:00:Thread#0:T:2019-06-28T03:08:13.0868436-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-06-28T03:08:13.0905668-07:00:2019-06-28T03:08:13.0902710-07:00:Thread#0:T:-> Using default config
+2019-06-28T03:08:13.1212455-07:00:2019-06-28T03:08:13.1209047-07:00:Thread#0:B:Given I am an unregistered user
+2019-06-28T03:08:13.1342012-07:00:2019-06-28T03:08:13.1340498-07:00:Thread#0:T:2019-06-28T03:08:13.1339636-07:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2019-06-28T03:08:13.1556791-07:00:2019-06-28T03:08:13.1548533-07:00:Thread#0:T:error: Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: AutomationDemo.Steps.UserRegistrationSteps)
+2019-06-28T03:08:13.1572663-07:00:2019-06-28T03:08:13.1569751-07:00:Thread#0:B:And I have navigated to the Sign in page
+2019-06-28T03:08:13.1579612-07:00:2019-06-28T03:08:13.1576900-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.1587577-07:00:2019-06-28T03:08:13.1584811-07:00:Thread#0:B:When I enter a valid email address in the email address field
+2019-06-28T03:08:13.1591735-07:00:2019-06-28T03:08:13.1589652-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.1594792-07:00:2019-06-28T03:08:13.1593557-07:00:Thread#0:B:And I click outside the email address field
+2019-06-28T03:08:13.1597239-07:00:2019-06-28T03:08:13.1596217-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.1601789-07:00:2019-06-28T03:08:13.1600731-07:00:Thread#0:B:Then the stle of the input box should change to indicate the email address is valid
+2019-06-28T03:08:13.1604113-07:00:2019-06-28T03:08:13.1603136-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.1793639-07:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-06-28T03:08:13.1806078-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-28T03:08:13.1806384-07:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-06-28T03:08:13.1806418-07:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-28T03:08:13.1806580-07:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-28T03:08:13.1806602-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-28T03:08:13.1806612-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-28T03:08:13.1806627-07:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-28T03:08:13.1806679-07:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-28T03:08:13.1806709-07:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-28T03:08:13.2135374-07:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.2546164 seconds
+2019-06-28T03:08:13.2159143-07:00:Thread#0: Test #4/1 is started on thread #0
+2019-06-28T03:08:13.2165046-07:00:2019-06-28T03:08:13.2162930-07:00:Thread#0:B:Given I am an unregistered user
+2019-06-28T03:08:13.2174224-07:00:2019-06-28T03:08:13.2172586-07:00:Thread#0:T:error: Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: AutomationDemo.Steps.UserRegistrationSteps)
+2019-06-28T03:08:13.2176935-07:00:2019-06-28T03:08:13.2175250-07:00:Thread#0:B:And I have navigated to the Sign in page
+2019-06-28T03:08:13.2180761-07:00:2019-06-28T03:08:13.2178962-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.2183401-07:00:2019-06-28T03:08:13.2182367-07:00:Thread#0:B:When I enter a valid email address in the email address field
+2019-06-28T03:08:13.2186073-07:00:2019-06-28T03:08:13.2184924-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.2188329-07:00:2019-06-28T03:08:13.2187330-07:00:Thread#0:B:And I click outside the email address field
+2019-06-28T03:08:13.2190416-07:00:2019-06-28T03:08:13.2189328-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.2192748-07:00:2019-06-28T03:08:13.2191700-07:00:Thread#0:B:Then the stle of the input box should change to indicate the email address is valid
+2019-06-28T03:08:13.2195043-07:00:2019-06-28T03:08:13.2194031-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.2202948-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-28T03:08:13.2203034-07:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-06-28T03:08:13.2203073-07:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-28T03:08:13.2203174-07:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-28T03:08:13.2203220-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-28T03:08:13.2203231-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-28T03:08:13.2203243-07:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-28T03:08:13.2203284-07:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-28T03:08:13.2203309-07:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-06-28T03:08:13.2251781-07:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.009236 seconds
+2019-06-28T03:08:13.2258608-07:00:Thread#0: Test #4/2 is started on thread #0
+2019-06-28T03:08:13.2264003-07:00:2019-06-28T03:08:13.2261471-07:00:Thread#0:B:Given I am an unregistered user
+2019-06-28T03:08:13.2272518-07:00:2019-06-28T03:08:13.2270115-07:00:Thread#0:T:error: Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: AutomationDemo.Steps.UserRegistrationSteps)
+2019-06-28T03:08:13.2274643-07:00:2019-06-28T03:08:13.2273396-07:00:Thread#0:B:And I have navigated to the Sign in page
+2019-06-28T03:08:13.2277875-07:00:2019-06-28T03:08:13.2275859-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.2280933-07:00:2019-06-28T03:08:13.2278614-07:00:Thread#0:B:When I enter a valid email address in the email address field
+2019-06-28T03:08:13.2285361-07:00:2019-06-28T03:08:13.2283071-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.2288862-07:00:2019-06-28T03:08:13.2286893-07:00:Thread#0:B:And I click outside the email address field
+2019-06-28T03:08:13.2291307-07:00:2019-06-28T03:08:13.2290402-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.2292900-07:00:2019-06-28T03:08:13.2292151-07:00:Thread#0:B:Then the stle of the input box should change to indicate the email address is valid
+2019-06-28T03:08:13.2294838-07:00:2019-06-28T03:08:13.2293891-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:08:13.2300069-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-28T03:08:13.2300142-07:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-28T03:08:13.2300155-07:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-06-28T03:08:13.2300168-07:00:Thread#0:Scheduler: No more tests for thread
+2019-06-28T03:08:13.2315589-07:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.005685 seconds
+2019-06-28T03:08:13.2378011-07:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2019-06-28T03:08:13.2411045-07:00:Unable to stop executor process: System.InvalidOperationException: No process is associated with this object.
+   at System.Diagnostics.Process.EnsureState(State state)
+   at System.Diagnostics.Process.get_HasExited()
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.OutProcExecutorManager.StopExecutorProcess(Process executorProcess)
+2019-06-28T03:08:13.2464330-07:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-28T03:08:13.2464414-07:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-28T03:08:13.2464431-07:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-28T03:08:13.2515933-07:00;Thread#12;Info;test run finished
+2019-06-28T03:08:13.2516836-07:00;Thread#12;Info;publishing test results
+2019-06-28T03:08:13.2517843-07:00;Thread#12;Info;Not publishing results.
+2019-06-28T03:08:13.2518361-07:00;Thread#12;Info;test results published
+2019-06-28T03:08:13.2518713-07:00;Thread#12;Info;generating reports
+2019-06-28T03:08:13.3019597-07:00;Thread#12;Info;Starting external report generation process
+2019-06-28T03:08:14.4948788-07:00;Thread#12;Info;Successfully generated reports.
+2019-06-28T03:08:14.4957731-07:00;Thread#12;Info;Successfully generated reports
+2019-06-28T03:08:14.5000732-07:00:Total: 1 (test executions: 3)
+2019-06-28T03:08:14.5017472-07:00:Succeeded: 0
+2019-06-28T03:08:14.5021267-07:00:Ignored: 0
+2019-06-28T03:08:14.5024883-07:00:Pending: 0
+2019-06-28T03:08:14.5024939-07:00:Skipped: 0
+2019-06-28T03:08:14.5028563-07:00:Failed: 1
+2019-06-28T03:08:14.5142284-07:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-28T03:08:14.5142651-07:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Code\VisualStudio\AutomationDemo\AutomationDemo\TestResults\Unnamed project__2019-06-28T030758.html'
+========== End of log file ==========

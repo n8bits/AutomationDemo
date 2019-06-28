@@ -1,0 +1,105 @@
+﻿2019-06-28T03:22:49.9049243-07:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-28T03:22:49.9049759-07:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework netcore21 in x64 mode execution started
+2019-06-28T03:22:49.9049787-07:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-28T03:22:49.9347897-07:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-28T03:22:49.9349692-07:00;VSTestExecutionThread;Info;Output folder configured to "D:\Code\VisualStudio\AutomationDemo\TestResults" (default)
+2019-06-28T03:22:49.9350200-07:00;VSTestExecutionThread;Info;Profile: 
+2019-06-28T03:22:49.9600091-07:00;VSTestExecutionThread;Info;Log file path: D:\Code\VisualStudio\AutomationDemo\TestResults\Unnamed project__2019-06-28T032249.log
+2019-06-28T03:22:49.9612377-07:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-28T03:22:49.9642319-07:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-28T03:22:49.9679440-07:00;Thread#12;Info;Checking license
+2019-06-28T03:22:49.9681222-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-28T03:22:49.9687365-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-28T03:22:49.9798529-07:00;Thread#12;Info;Evaluation mode: test execution starts in 7 seconds... (this delay is removed in the registered version)
+2019-06-28T03:22:56.9802372-07:00;Thread#12;Info;Evaluation delay finished.
+2019-06-28T03:22:56.9866395-07:00;Thread#12;Info;License check completed
+2019-06-28T03:22:56.9867214-07:00;Thread#12;Info;starting test run
+2019-06-28T03:22:56.9907689-07:00;Thread#12;Info;Discovering target: Default
+2019-06-28T03:22:56.9908608-07:00;Thread#12;Info;Discovering tests from assembly: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-28T03:22:57.0489010-07:00;Thread#12;Info;Discovered tests from assembly: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-28T03:22:57.0496987-07:00:Test Suite Dump
+2019-06-28T03:22:57.0508936-07:00:#0: Unnamed project/ - 
+2019-06-28T03:22:57.0509035-07:00:#1: Default - 
+2019-06-28T03:22:57.0509050-07:00:#2: WebShopDemo - 
+2019-06-28T03:22:57.0509061-07:00:#3: UserRegistration - 
+2019-06-28T03:22:57.0509215-07:00:#4: Form Validation - Valid - TestAssembly:WebShopDemo/Feature:UserRegistration/Scenario:Form+Validation+-+Valid
+2019-06-28T03:22:57.0509569-07:00:End: Test Suite Dump
+2019-06-28T03:22:57.0634059-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-28T03:22:57.0648554-07:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-06-28T03:22:57.0648954-07:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-28T03:22:57.0672105-07:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-28T03:22:57.0672179-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-28T03:22:57.0672192-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-28T03:22:57.0672208-07:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-28T03:22:57.0680682-07:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-28T03:22:57.0687427-07:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-28T03:22:57.0705528-07:00:Thread #0: creating new test thread executor for WebShopDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-28T03:22:57.0719233-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-06-28T03:22:57.0723606-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-06-28T03:22:57.0726395-07:00:using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-06-28T03:22:57.0744369-07:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-28T03:22:57.0813375-07:00:starting Out Of Process Executor
+2019-06-28T03:22:57.1430682-07:00:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' '"D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\SpecFlowPlusRunner\netcoreapp2.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_1.dll" 16300 2019-06-28T032249 "D:\Code\VisualStudio\AutomationDemo\TestResults"' in 'D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1'
+2019-06-28T03:22:57.1489754-07:00:Entering Memory Barrier for 5324
+2019-06-28T03:22:57.1489863-07:00:Leaving Memory Barrier for 5324
+2019-06-28T03:22:57.1518246-07:00:Out of Process Executor 5324 started
+2019-06-28T03:22:57.1542316-07:00:Waiting for endpoint
+2019-06-28T03:22:57.1551724-07:00:trying to connect to Out of Process Executor the 1 attempt
+2019-06-28T03:22:57.2176374-07:00:waiting for Connection of SpecRun.Executor.5324.Logger ended
+2019-06-28T03:22:57.2190100-07:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-28T03:22:57.2371265-07:00:Connection to Out of Process Executor established in the 1 attempt
+2019-06-28T03:22:57.4050324-07:00:waiting for Connection of SpecRun.Executor.5324.Callback ended
+2019-06-28T03:22:57.5173168-07:00:2019-06-28T03:22:57.4539873-07:00:OutOfProcessTestAssemblyExecutor: initialized for D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll on test thread #0
+2019-06-28T03:22:57.5256848-07:00:Endpoint 5324 started
+2019-06-28T03:22:57.5393951-07:00:2019-06-28T03:22:57.5390672-07:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-06-28T03:22:57.6128863-07:00:Thread#0: Test #4/0 is started on thread #0
+2019-06-28T03:22:57.6191522-07:00:2019-06-28T03:22:57.6188431-07:00:Thread#0:T:2019-06-28T03:22:57.6175505-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-06-28T03:22:57.7088806-07:00:2019-06-28T03:22:57.7086006-07:00:Thread#0:T:-> Loading plugin D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-28T03:22:57.7102311-07:00:2019-06-28T03:22:57.7099871-07:00:Thread#0:T:2019-06-28T03:22:57.7098632-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-06-28T03:22:57.7131970-07:00:2019-06-28T03:22:57.7129142-07:00:Thread#0:T:-> Using default config
+2019-06-28T03:22:57.7614396-07:00:2019-06-28T03:22:57.7611350-07:00:Thread#0:T:2019-06-28T03:22:57.7610270-07:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2019-06-28T03:22:59.3472211-07:00:2019-06-28T03:22:59.3468257-07:00:Thread#0:B:Given I am an unregistered user
+2019-06-28T03:23:01.3893975-07:00:2019-06-28T03:23:01.3885880-07:00:Thread#0:T:done: UserRegistrationSteps.GivenIAmAnUnregisteredUser() (2.0s)
+2019-06-28T03:23:01.3905156-07:00:2019-06-28T03:23:01.3902428-07:00:Thread#0:B:And I have navigated to the Sign in page
+2019-06-28T03:23:01.4082424-07:00:2019-06-28T03:23:01.4078768-07:00:Thread#0:T:pending: UserRegistrationSteps.GivenIHaveNavigatedToTheSignInPage()
+2019-06-28T03:23:01.4092088-07:00:2019-06-28T03:23:01.4089197-07:00:Thread#0:B:When I enter a valid email address in the email address field
+2019-06-28T03:23:01.4099008-07:00:2019-06-28T03:23:01.4095815-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:23:01.4104982-07:00:2019-06-28T03:23:01.4101991-07:00:Thread#0:B:And I click outside the email address field
+2019-06-28T03:23:01.4110184-07:00:2019-06-28T03:23:01.4107736-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:23:01.4114532-07:00:2019-06-28T03:23:01.4113348-07:00:Thread#0:B:Then the stle of the input box should change to indicate the email address is valid
+2019-06-28T03:23:01.4116945-07:00:2019-06-28T03:23:01.4115718-07:00:Thread#0:T:skipped because of previous errors
+2019-06-28T03:23:01.4144108-07:00:2019-06-28T03:23:01.4142104-07:00:Thread#0:T:Pending: One or more step definitions are not implemented yet.
+2019-06-28T03:23:01.4148032-07:00:2019-06-28T03:23:01.4146099-07:00:Thread#0:T:  UserRegistrationSteps.GivenIHaveNavigatedToTheSignInPage()
+2019-06-28T03:23:01.4196791-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-28T03:23:01.4196941-07:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-28T03:23:01.4196957-07:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-06-28T03:23:01.4196971-07:00:Thread#0:Scheduler: No more tests for thread
+2019-06-28T03:23:01.4527143-07:00:Thread#0: Test #4/0 is finished on thread #0 as Pending within 3.8393851 seconds
+2019-06-28T03:23:01.4601220-07:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2019-06-28T03:23:01.4631333-07:00:Unable to stop executor process: System.InvalidOperationException: No process is associated with this object.
+   at System.Diagnostics.Process.EnsureState(State state)
+   at System.Diagnostics.Process.get_HasExited()
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.OutProcExecutorManager.StopExecutorProcess(Process executorProcess)
+2019-06-28T03:23:01.4684525-07:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-28T03:23:01.4684631-07:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-28T03:23:01.4684648-07:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-28T03:23:01.4698896-07:00;Thread#12;Info;test run finished
+2019-06-28T03:23:01.4699962-07:00;Thread#12;Info;publishing test results
+2019-06-28T03:23:01.4701003-07:00;Thread#12;Info;Not publishing results.
+2019-06-28T03:23:01.4701445-07:00;Thread#12;Info;test results published
+2019-06-28T03:23:01.4739094-07:00;Thread#12;Info;generating reports
+2019-06-28T03:23:01.5207386-07:00;Thread#12;Info;Starting external report generation process
+2019-06-28T03:23:02.4221854-07:00;Thread#12;Info;Successfully generated reports.
+2019-06-28T03:23:02.4233617-07:00;Thread#12;Info;Successfully generated reports
+2019-06-28T03:23:02.4276397-07:00:Total: 1
+2019-06-28T03:23:02.4294697-07:00:Succeeded: 0
+2019-06-28T03:23:02.4298428-07:00:Ignored: 0
+2019-06-28T03:23:02.4302015-07:00:Pending: 1
+2019-06-28T03:23:02.4302070-07:00:Skipped: 0
+2019-06-28T03:23:02.4305568-07:00:Failed: 0
+2019-06-28T03:23:02.4369089-07:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-28T03:23:02.4369493-07:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Code\VisualStudio\AutomationDemo\TestResults\Unnamed project__2019-06-28T032249.html'
+========== End of log file ==========
