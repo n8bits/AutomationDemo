@@ -16,9 +16,11 @@ namespace WebShopDemo.PageObjects.AuthenticationPage
 
         private IWebElement EmailField => this.Driver.FindElement(By.Id("email_create"));
 
-        private IWebElement CreateAccountButton => this.Driver.FindElementById("email_create");
+        private IWebElement CreateAccountButton => this.Driver.FindElementById("SubmitCreate");
 
         private IWebElement ValidationDiv => this.Driver.FindElement(By.CssSelector("#create-account_form div[class*='form-group']"));
+
+        private IWebElement AccountCreationError => this.Driver.WaitUntilElementExists(By.CssSelector("#create_account_error li"), 1000);
 
         public Boolean IsEmailValid => this.ValidationDiv.GetAttribute("class").Contains("form-ok");
 
@@ -29,10 +31,31 @@ namespace WebShopDemo.PageObjects.AuthenticationPage
             this.EmailField.SendKeys(Keys.Tab);
         }
 
+        public void SubmitEmail(string email)
+        {
+            EnterEmail(email);
+            this.CreateAccountButton.Click();
+        }
+
         public void UnfocusEmailField()
         {
             this.EmailField.Click();
             this.EmailField.SendKeys(Keys.Tab);
+        }
+
+        public string AccountCreationErrorMessage
+        {
+            get
+            {
+                if (this.AccountCreationError == null)
+                {
+                    return "";
+                }
+                else
+                {
+                    return AccountCreationError.Text;
+                }
+            }
         }
 
     }

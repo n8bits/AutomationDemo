@@ -78,11 +78,11 @@ namespace WebShopDemo.Features
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Form Validation - Valid", new string[] {
+        [TechTalk.SpecRun.ScenarioAttribute("Email Address Field Validation Indicator", new string[] {
                 "registration"}, SourceLine=10)]
-        public virtual void FormValidation_Valid()
+        public virtual void EmailAddressFieldValidationIndicator()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Form Validation - Valid", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Email Address Field Validation Indicator", null, new string[] {
                         "registration"});
 #line 11
 this.ScenarioInitialize(scenarioInfo);
@@ -97,6 +97,65 @@ this.FeatureBackground();
  testRunner.Then("the style of the input box should change to indicate the email address is valid", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
+        }
+        
+        public virtual void AttemptToBeginRegistrationWithInvalidEmail(string emailAddress, string[] exampleTags)
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Attempt to begin registration with invalid email", null, exampleTags);
+#line 17
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 6
+this.FeatureBackground();
+#line 18
+ testRunner.When(string.Format("I attempt to begin registration using the email adress \"{0}\"", emailAddress), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 19
+ testRunner.Then("I should not be taken to the Account Creation page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 20
+ testRunner.And("I should see an alert indicating the email address entered is invalid", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Attempt to begin registration with invalid email, 1234125", SourceLine=23)]
+        public virtual void AttemptToBeginRegistrationWithInvalidEmail_1234125()
+        {
+#line 17
+this.AttemptToBeginRegistrationWithInvalidEmail("1234125", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Attempt to begin registration with invalid email, 12341234@3333", SourceLine=23)]
+        public virtual void AttemptToBeginRegistrationWithInvalidEmail_123412343333()
+        {
+#line 17
+this.AttemptToBeginRegistrationWithInvalidEmail("12341234@3333", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Attempt to begin registration with invalid email, @domain.com", SourceLine=23)]
+        public virtual void AttemptToBeginRegistrationWithInvalidEmail_Domain_Com()
+        {
+#line 17
+this.AttemptToBeginRegistrationWithInvalidEmail("@domain.com", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Attempt to begin registration with invalid email, invalidcharacterindomain@blabla" +
+            "&.com", SourceLine=23)]
+        public virtual void AttemptToBeginRegistrationWithInvalidEmail_InvalidcharacterindomainBlabla_Com()
+        {
+#line 17
+this.AttemptToBeginRegistrationWithInvalidEmail("invalidcharacterindomain@blabla&.com", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Attempt to begin registration with invalid email, ", SourceLine=23)]
+        public virtual void AttemptToBeginRegistrationWithInvalidEmail_()
+        {
+#line 17
+this.AttemptToBeginRegistrationWithInvalidEmail("", ((string[])(null)));
+#line hidden
         }
         
         [TechTalk.SpecRun.TestRunCleanup()]

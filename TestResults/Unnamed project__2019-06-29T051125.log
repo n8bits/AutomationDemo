@@ -1,0 +1,91 @@
+﻿2019-06-29T05:11:25.7509099-07:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-29T05:11:25.7509484-07:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework netcore21 in x64 mode execution started
+2019-06-29T05:11:25.7509513-07:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-29T05:11:25.7889790-07:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T05:11:25.7891610-07:00;VSTestExecutionThread;Info;Output folder configured to "D:\Code\VisualStudio\AutomationDemo\TestResults" (default)
+2019-06-29T05:11:25.7892139-07:00;VSTestExecutionThread;Info;Profile: 
+2019-06-29T05:11:25.8285628-07:00;VSTestExecutionThread;Info;Log file path: D:\Code\VisualStudio\AutomationDemo\TestResults\Unnamed project__2019-06-29T051125.log
+2019-06-29T05:11:25.8297454-07:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T05:11:25.8362599-07:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-29T05:11:25.8430626-07:00;Thread#12;Info;Checking license
+2019-06-29T05:11:25.8432503-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T05:11:25.8439313-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T05:11:25.8579237-07:00;Thread#12;Info;Evaluation mode: test execution starts in 9 seconds... (this delay is removed in the registered version)
+2019-06-29T05:11:34.8593872-07:00;Thread#12;Info;Evaluation delay finished.
+2019-06-29T05:11:34.8663134-07:00;Thread#12;Info;License check completed
+2019-06-29T05:11:34.8664098-07:00;Thread#12;Info;starting test run
+2019-06-29T05:11:34.8761986-07:00;Thread#12;Info;Discovering target: Default
+2019-06-29T05:11:34.8763088-07:00;Thread#12;Info;Discovering tests from assembly: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T05:11:34.9743937-07:00;Thread#12;Info;Discovered tests from assembly: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T05:11:34.9752249-07:00:Test Suite Dump
+2019-06-29T05:11:34.9765415-07:00:#0: Unnamed project/ - 
+2019-06-29T05:11:34.9765520-07:00:#1: Default - 
+2019-06-29T05:11:34.9765534-07:00:#2: WebShopDemo - 
+2019-06-29T05:11:34.9765544-07:00:#3: UserRegistration - 
+2019-06-29T05:11:34.9765684-07:00:#6: Attempt to begin registration with invalid email, 12341234@3333 - TestAssembly:WebShopDemo/Feature:UserRegistration/Scenario:Attempt+to+begin+registration+with+invalid+email%2c+12341234%403333
+2019-06-29T05:11:34.9766144-07:00:End: Test Suite Dump
+2019-06-29T05:11:34.9901088-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-29T05:11:34.9918012-07:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-06-29T05:11:34.9918536-07:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-29T05:11:34.9944712-07:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-29T05:11:34.9944805-07:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-29T05:11:34.9944819-07:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-29T05:11:34.9944838-07:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-29T05:11:34.9954287-07:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-29T05:11:34.9961732-07:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-29T05:11:34.9981711-07:00:Thread #0: creating new test thread executor for WebShopDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-29T05:11:34.9996919-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-06-29T05:11:35.0001856-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-06-29T05:11:35.0005372-07:00:using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-06-29T05:11:35.0116881-07:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-29T05:11:35.0263561-07:00:starting Out Of Process Executor
+2019-06-29T05:11:35.1100492-07:00:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' '"D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\SpecFlowPlusRunner\netcoreapp2.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_1.dll" 16220 2019-06-29T051125 "D:\Code\VisualStudio\AutomationDemo\TestResults" debug' in 'D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1'
+2019-06-29T05:11:35.1111026-07:00;Thread#12;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2019-06-29T05:11:35.1281436-07:00;Thread#12;Info;Successfully started SpecFlow+ Runner executor process
+2019-06-29T05:11:35.1282593-07:00:Entering Memory Barrier for 16824
+2019-06-29T05:11:35.1282610-07:00:Leaving Memory Barrier for 16824
+2019-06-29T05:11:35.1314649-07:00:Out of Process Executor 16824 started
+2019-06-29T05:11:35.1436307-07:00:Waiting for endpoint
+2019-06-29T05:11:35.1446137-07:00:trying to connect to Out of Process Executor the 1 attempt
+2019-06-29T05:11:35.4221545-07:00:waiting for Connection of SpecRun.Executor.16824.Logger ended
+2019-06-29T05:11:35.4237426-07:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-29T05:11:35.4813471-07:00:Connection to Out of Process Executor established in the 1 attempt
+2019-06-29T05:11:35.7046502-07:00:waiting for Connection of SpecRun.Executor.16824.Callback ended
+2019-06-29T05:11:35.8405669-07:00:2019-06-29T05:11:35.7789245-07:00:OutOfProcessTestAssemblyExecutor: initialized for D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll on test thread #0
+2019-06-29T05:11:35.8532811-07:00:Endpoint 16824 started
+2019-06-29T05:11:35.8681529-07:00:2019-06-29T05:11:35.8672695-07:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-06-29T05:11:35.9439740-07:00:Thread#0: Test #6/0 is started on thread #0
+2019-06-29T05:11:35.9571637-07:00:2019-06-29T05:11:35.9567263-07:00:Thread#0:T:2019-06-29T05:11:35.9552375-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-06-29T05:11:36.0870039-07:00:2019-06-29T05:11:36.0861879-07:00:Thread#0:T:-> Loading plugin D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-29T05:11:36.0925647-07:00:2019-06-29T05:11:36.0921189-07:00:Thread#0:T:2019-06-29T05:11:36.0920198-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-06-29T05:11:36.0963929-07:00:2019-06-29T05:11:36.0957597-07:00:Thread#0:T:-> Using default config
+2019-06-29T05:11:36.1462881-07:00:2019-06-29T05:11:36.1425859-07:00:Thread#0:T:2019-06-29T05:11:36.1423033-07:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2019-06-29T05:11:37.7500324-07:00:2019-06-29T05:11:37.7490557-07:00:Thread#0:B:Given I am an unregistered user
+2019-06-29T05:11:37.7656966-07:00:2019-06-29T05:11:37.7640008-07:00:Thread#0:T:done: UserRegistrationSteps.GivenIAmAnUnregisteredUser() (0.0s)
+2019-06-29T05:11:37.7673846-07:00:2019-06-29T05:11:37.7670139-07:00:Thread#0:B:And I have navigated to the Sign in page
+2019-06-29T05:11:39.6451994-07:00:2019-06-29T05:11:39.6443975-07:00:Thread#0:T:done: UserRegistrationSteps.GivenIHaveNavigatedToTheSignInPage() (1.9s)
+2019-06-29T05:11:39.6469481-07:00:2019-06-29T05:11:39.6464842-07:00:Thread#0:B:When I attempt to begin registration using the email adress "12341234@3333"
+2019-06-29T05:11:39.7993959-07:00:2019-06-29T05:11:39.7989278-07:00:Thread#0:T:done: UserRegistrationSteps.WhenIAttemptToBeginRegistrationUsingTheEmailAdress("12341234@3333") (0.1s)
+2019-06-29T05:11:39.8011729-07:00:2019-06-29T05:11:39.8007560-07:00:Thread#0:B:Then I should not be taken to the Account Creation page
+2019-06-29T05:11:39.8028195-07:00:2019-06-29T05:11:39.8023242-07:00:Thread#0:T:2019-06-29T05:11:39.8021555-07:00:Assembly resolving nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb
+2019-06-29T05:11:39.8170859-07:00:2019-06-29T05:11:39.8164292-07:00:Thread#0:T:done: UserRegistrationSteps.ThenIShouldNotBeTakenToTheAccountCreationPage() (0.0s)
+2019-06-29T05:11:39.8179273-07:00:2019-06-29T05:11:39.8175728-07:00:Thread#0:B:And I should see an alert indicating the email address entered is invalid
+2019-06-29T05:12:55.4555256-07:00:2019-06-29T05:12:55.4475898-07:00:Thread#0:T:error:   Expected: True
+2019-06-29T05:12:55.4577696-07:00:2019-06-29T05:12:55.4574088-07:00:Thread#0:T:  But was:  False
+2019-06-29T05:12:58.6049592-07:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2019-06-29T05:12:58.6069744-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-29T05:12:58.6070106-07:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2019-06-29T05:12:58.6070143-07:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-06-29T05:12:58.6070328-07:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-29T05:12:58.6070349-07:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-06-29T05:12:58.6070425-07:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-06-29T05:12:58.6070439-07:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-06-29T05:12:58.6070497-07:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-06-29T05:12:58.6070534-07:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-06-29T05:12:58.6722034-07:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 82.7277552 seconds
+2019-06-29T05:12:58.6752492-07:00:Thread#0: Test #6/1 is started on thread #0
+2019-06-29T05:13:00.6848329-07:00:2019-06-29T05:13:00.6838362-07:00:Thread#0:B:Given I am an unregistered user
+2019-06-29T05:13:00.6857487-07:00:2019-06-29T05:13:00.6853640-07:00:Thread#0:T:done: UserRegistrationSteps.GivenIAmAnUnregisteredUser() (0.0s)
+2019-06-29T05:13:00.6865366-07:00:2019-06-29T05:13:00.6862136-07:00:Thread#0:B:And I have navigated to the Sign in page
+2019-06-29T05:13:02.4323404-07:00:2019-06-29T05:13:02.4318675-07:00:Thread#0:T:done: UserRegistrationSteps.GivenIHaveNavigatedToTheSignInPage() (1.7s)
+2019-06-29T05:13:02.4333583-07:00:2019-06-29T05:13:02.4329347-07:00:Thread#0:B:When I attempt to begin registration using the email adress "12341234@3333"

@@ -13,9 +13,9 @@ namespace AutomationDemo.PageObjects
             this.Url = url;
         }
 
-        protected string Url { get; }
+        internal string Url { get; }
 
-        // Allow for overriding in case a page needs additional wait logic when loading.
+        // Allow for overriding in case a page needs additional navigation or wait logic
         internal virtual void GoToPage()
         {
             Driver.Navigate().GoToUrl(this.Url);

@@ -180,4 +180,3 @@ D:\Code\VisualStudio\AutomationDemo\obj\Debug\netcoreapp2.1\WebShopDemo.Assembly
 D:\Code\VisualStudio\AutomationDemo\obj\Debug\netcoreapp2.1\WebShopDemo.AssemblyInfo.cs
 D:\Code\VisualStudio\AutomationDemo\obj\Debug\netcoreapp2.1\WebShopDemo.dll
 D:\Code\VisualStudio\AutomationDemo\obj\Debug\netcoreapp2.1\WebShopDemo.pdb
-D:\Code\VisualStudio\AutomationDemo\obj\Debug\netcoreapp2.1\WebShopDemo.csprojAssemblyReference.cache

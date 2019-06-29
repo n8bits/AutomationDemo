@@ -1,0 +1,72 @@
+﻿2019-06-29T04:20:49.8364378-07:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-29T04:20:49.8364906-07:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework netcore21 in x64 mode execution started
+2019-06-29T04:20:49.8364947-07:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-29T04:20:49.8749396-07:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T04:20:49.8751306-07:00;VSTestExecutionThread;Info;Output folder configured to "D:\Code\VisualStudio\AutomationDemo\TestResults" (default)
+2019-06-29T04:20:49.8751909-07:00;VSTestExecutionThread;Info;Profile: 
+2019-06-29T04:20:49.9129320-07:00;VSTestExecutionThread;Info;Log file path: D:\Code\VisualStudio\AutomationDemo\TestResults\Unnamed project__2019-06-29T042049.log
+2019-06-29T04:20:49.9142781-07:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T04:20:49.9204884-07:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-29T04:20:49.9270251-07:00;Thread#12;Info;Checking license
+2019-06-29T04:20:49.9272190-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T04:20:49.9278589-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T04:20:49.9410489-07:00;Thread#12;Info;Evaluation mode: test execution starts in 14 seconds... (this delay is removed in the registered version)
+2019-06-29T04:21:03.9414801-07:00;Thread#12;Info;Evaluation delay finished.
+2019-06-29T04:21:03.9486018-07:00;Thread#12;Info;License check completed
+2019-06-29T04:21:03.9486989-07:00;Thread#12;Info;starting test run
+2019-06-29T04:21:03.9581249-07:00;Thread#12;Info;Discovering target: Default
+2019-06-29T04:21:03.9582442-07:00;Thread#12;Info;Discovering tests from assembly: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T04:21:04.1680902-07:00;Thread#12;Info;Discovered tests from assembly: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T04:21:04.1689040-07:00:Test Suite Dump
+2019-06-29T04:21:04.1702149-07:00:#0: Unnamed project/ - 
+2019-06-29T04:21:04.1702258-07:00:#1: Default - 
+2019-06-29T04:21:04.1702272-07:00:#2: WebShopDemo - 
+2019-06-29T04:21:04.1702282-07:00:#3: UserRegistration - 
+2019-06-29T04:21:04.1702437-07:00:#4: Form Validation - Valid - TestAssembly:WebShopDemo/Feature:UserRegistration/Scenario:Form+Validation+-+Valid
+2019-06-29T04:21:04.1702867-07:00:End: Test Suite Dump
+2019-06-29T04:21:04.1837079-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-29T04:21:04.1852913-07:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-06-29T04:21:04.1853419-07:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-06-29T04:21:04.1878419-07:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-06-29T04:21:04.1878496-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-06-29T04:21:04.1878545-07:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-06-29T04:21:04.1878564-07:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-06-29T04:21:04.1887805-07:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-06-29T04:21:04.1895033-07:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-06-29T04:21:04.1914967-07:00:Thread #0: creating new test thread executor for WebShopDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-06-29T04:21:04.1929849-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-06-29T04:21:04.1934683-07:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-06-29T04:21:04.1937880-07:00:using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-06-29T04:21:04.2037164-07:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-29T04:21:04.2171309-07:00:starting Out Of Process Executor
+2019-06-29T04:21:04.2939600-07:00:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' '"D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\SpecFlowPlusRunner\netcoreapp2.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp2_1.dll" 14668 2019-06-29T042049 "D:\Code\VisualStudio\AutomationDemo\TestResults" debug' in 'D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1'
+2019-06-29T04:21:04.2948020-07:00;Thread#12;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2019-06-29T04:21:04.3171247-07:00;Thread#12;Info;Successfully started SpecFlow+ Runner executor process
+2019-06-29T04:21:04.3172806-07:00:Entering Memory Barrier for 13012
+2019-06-29T04:21:04.3172825-07:00:Leaving Memory Barrier for 13012
+2019-06-29T04:21:04.3224188-07:00:Out of Process Executor 13012 started
+2019-06-29T04:21:04.3357705-07:00:Waiting for endpoint
+2019-06-29T04:21:04.3367419-07:00:trying to connect to Out of Process Executor the 1 attempt
+2019-06-29T04:21:04.5932940-07:00:waiting for Connection of SpecRun.Executor.13012.Logger ended
+2019-06-29T04:21:04.5975526-07:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-29T04:21:04.6624875-07:00:Connection to Out of Process Executor established in the 1 attempt
+2019-06-29T04:21:04.9014192-07:00:waiting for Connection of SpecRun.Executor.13012.Callback ended
+2019-06-29T04:21:05.0374640-07:00:2019-06-29T04:21:04.9727572-07:00:OutOfProcessTestAssemblyExecutor: initialized for D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll on test thread #0
+2019-06-29T04:21:05.0470416-07:00:Endpoint 13012 started
+2019-06-29T04:21:05.0614926-07:00:2019-06-29T04:21:05.0607158-07:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-06-29T04:21:05.1356407-07:00:Thread#0: Test #4/0 is started on thread #0
+2019-06-29T04:21:05.1533461-07:00:2019-06-29T04:21:05.1476691-07:00:Thread#0:T:2019-06-29T04:21:05.1460923-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-06-29T04:21:05.2799955-07:00:2019-06-29T04:21:05.2786806-07:00:Thread#0:T:-> Loading plugin D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-06-29T04:21:05.2853220-07:00:2019-06-29T04:21:05.2848576-07:00:Thread#0:T:2019-06-29T04:21:05.2847682-07:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-06-29T04:21:05.2890187-07:00:2019-06-29T04:21:05.2885497-07:00:Thread#0:T:-> Using default config
+2019-06-29T04:21:05.3352971-07:00:2019-06-29T04:21:05.3347915-07:00:Thread#0:T:2019-06-29T04:21:05.3346153-07:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2019-06-29T04:21:07.0272486-07:00:2019-06-29T04:21:07.0263092-07:00:Thread#0:B:Given I am an unregistered user
+2019-06-29T04:21:07.0411868-07:00:2019-06-29T04:21:07.0398224-07:00:Thread#0:T:done: UserRegistrationSteps.GivenIAmAnUnregisteredUser() (0.0s)
+2019-06-29T04:21:07.0431970-07:00:2019-06-29T04:21:07.0426027-07:00:Thread#0:B:And I have navigated to the Sign in page
+2019-06-29T04:21:08.9704071-07:00:2019-06-29T04:21:08.9666816-07:00:Thread#0:T:done: UserRegistrationSteps.GivenIHaveNavigatedToTheSignInPage() (1.9s)
+2019-06-29T04:21:08.9717918-07:00:2019-06-29T04:21:08.9713371-07:00:Thread#0:B:When I enter a valid email address in the email address field
+2019-06-29T04:21:09.1145932-07:00:2019-06-29T04:21:09.1141271-07:00:Thread#0:T:done: UserRegistrationSteps.WhenIEnterAValidEmailAddressInTheEmailAddressField() (0.1s)
+2019-06-29T04:21:09.1155568-07:00:2019-06-29T04:21:09.1151794-07:00:Thread#0:B:And I tab out of the email address field
+2019-06-29T04:21:09.1769692-07:00:2019-06-29T04:21:09.1764932-07:00:Thread#0:T:done: UserRegistrationSteps.WhenIClickOutsideTheEmailAddressField() (0.1s)
+2019-06-29T04:21:09.1798830-07:00:2019-06-29T04:21:09.1795035-07:00:Thread#0:B:Then the style of the input box should change to indicate the email address is valid
+2019-06-29T04:21:09.1813471-07:00:2019-06-29T04:21:09.1809413-07:00:Thread#0:T:2019-06-29T04:21:09.1808316-07:00:Assembly resolving nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb

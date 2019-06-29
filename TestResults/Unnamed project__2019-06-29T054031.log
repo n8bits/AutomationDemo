@@ -1,0 +1,39 @@
+﻿2019-06-29T05:40:30.9989219-07:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-06-29T05:40:30.9989613-07:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.352 in Framework netcore21 in x64 mode execution started
+2019-06-29T05:40:30.9989639-07:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-29T05:40:31.0369443-07:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T05:40:31.0371308-07:00;VSTestExecutionThread;Info;Output folder configured to "D:\Code\VisualStudio\AutomationDemo\TestResults" (default)
+2019-06-29T05:40:31.0371805-07:00;VSTestExecutionThread;Info;Profile: 
+2019-06-29T05:40:31.0657212-07:00;VSTestExecutionThread;Info;Log file path: D:\Code\VisualStudio\AutomationDemo\TestResults\Unnamed project__2019-06-29T054031.log
+2019-06-29T05:40:31.0669216-07:00;VSTestExecutionThread;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T05:40:31.0741840-07:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-29T05:40:31.0816533-07:00;Thread#12;Info;Checking license
+2019-06-29T05:40:31.0818400-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T05:40:31.0824668-07:00;Thread#12;Error;Invalid project license: The test assembly name must contain the licensed project name
+2019-06-29T05:40:31.0945284-07:00;Thread#12;Info;Evaluation mode: test execution starts in 7 seconds... (this delay is removed in the registered version)
+2019-06-29T05:40:38.0964721-07:00;Thread#12;Info;Evaluation delay finished.
+2019-06-29T05:40:38.1029938-07:00;Thread#12;Info;License check completed
+2019-06-29T05:40:38.1030874-07:00;Thread#12;Info;starting test run
+2019-06-29T05:40:38.1120695-07:00;Thread#12;Info;Discovering target: Default
+2019-06-29T05:40:38.1121758-07:00;Thread#12;Info;Discovering tests from assembly: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T05:40:38.2145844-07:00;Thread#12;Info;Discovered tests from assembly: D:\Code\VisualStudio\AutomationDemo\bin\Debug\netcoreapp2.1\WebShopDemo.dll
+2019-06-29T05:40:38.2153921-07:00:Test Suite Dump
+2019-06-29T05:40:38.2167311-07:00:#0: Unnamed project/ - 
+2019-06-29T05:40:38.2167749-07:00:End: Test Suite Dump
+2019-06-29T05:40:38.2301896-07:00:Thread#0:Scheduler: get next test for thread 0
+2019-06-29T05:40:38.2317570-07:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-29T05:40:38.2317644-07:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-06-29T05:40:38.2319030-07:00:Thread#0:Scheduler: No more tests for thread
+2019-06-29T05:40:38.2376017-07:00:Thread#-1:Scheduler: get next test for thread -1
+2019-06-29T05:40:38.2376186-07:00:Thread#:Scheduler: at the end of normal test queue
+2019-06-29T05:40:38.2376205-07:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-29T05:40:38.2388363-07:00;Thread#12;Info;test run finished
+2019-06-29T05:40:38.2389325-07:00;Thread#12;Info;publishing test results
+2019-06-29T05:40:38.2390323-07:00;Thread#12;Info;Not publishing results.
+2019-06-29T05:40:38.2390756-07:00;Thread#12;Info;test results published
+2019-06-29T05:40:38.2390883-07:00;Thread#12;Info;generating reports
+2019-06-29T05:40:38.2942532-07:00;Thread#12;Info;Starting external report generation process
+2019-06-29T05:40:39.0179258-07:00;Thread#12;Error;Could not generate test run result reports. An error occurred in the generator.
+2019-06-29T05:40:39.0180503-07:00;Thread#12;Error;Error output of external program:
+2019-06-29T05:40:39.0188634-07:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel.resources, Version=15.0.0.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2019-06-29T05:40:39.0231154-07:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel.resources, Version=15.0.0.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
