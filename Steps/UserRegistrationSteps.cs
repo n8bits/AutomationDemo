@@ -43,17 +43,23 @@ namespace AutomationDemo.Steps
         {
             this.authPage.AccountCreationForm.UnfocusEmailField();
         }
-        
-        [Then(@"the style of the input box should change to indicate the email address is valid")]
-        public void ThenTheStleOfTheInputBoxShouldChangeToIndicateTheEmailAddressIsValid()
-        {
-            Assert.IsTrue(authPage.AccountCreationForm.IsEmailValid);
-        }
 
         [When(@"I attempt to begin registration using the email adress ""(.*)""")]
         public void WhenIAttemptToBeginRegistrationUsingTheEmailAdress(string email)
         {
             this.authPage.AccountCreationForm.SubmitEmail(email);
+        }
+
+        [When(@"I attempt to begin registration with an email address that has already been registered")]
+        public void WhenIAttemptToBeginRegistrationWithAnEmailAddressThatHasAlreadyBeenRegistered()
+        {
+            this.authPage.AccountCreationForm.SubmitEmail("n.epps1987@gmail.com");
+        }
+
+        [Then(@"the style of the input box should change to indicate the email address is valid")]
+        public void ThenTheStleOfTheInputBoxShouldChangeToIndicateTheEmailAddressIsValid()
+        {
+            Assert.IsTrue(authPage.AccountCreationForm.IsEmailValid);
         }
 
         [Then(@"I should not be taken to the Account Creation page")]
@@ -68,5 +74,14 @@ namespace AutomationDemo.Steps
             var errorMessage = this.authPage.AccountCreationForm.AccountCreationErrorMessage;
             Assert.IsTrue(errorMessage == "Invalid email address.");
         }
+
+        [Then(@"I should see an error indicating the email address is already in use")]
+        public void ThenIShouldSeeAnErrorIndicatingTheEmailAddressIsAlreadyInUse()
+        {
+
+            var errorMessage = this.authPage.AccountCreationForm.AccountCreationErrorMessage;
+            Assert.IsTrue(errorMessage == "An account using this email address has already been registered. Please enter a valid password or request a new one.");
+        }
+
     }
 }

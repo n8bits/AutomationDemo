@@ -31,6 +31,7 @@ namespace AutomationDemo.Steps
         public void DriverCleanup(IWebDriver driver)
         {
             driver.Close();
+            driver.Dispose();
         }
     }
 }
