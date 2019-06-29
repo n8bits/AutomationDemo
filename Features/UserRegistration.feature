@@ -13,7 +13,6 @@ Scenario: Email Address Field Validation Indicator
 	And I tab out of the email address field
 	Then the style of the input box should change to indicate the email address is valid
 
-
 Scenario Outline: Attempt to begin registration with invalid email
 	When I attempt to begin registration using the email adress "<Email Address>" 
 	Then I should not be taken to the Account Creation page
